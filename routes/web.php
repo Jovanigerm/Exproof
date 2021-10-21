@@ -21,6 +21,6 @@ Route::get('/tabla', function () {
 });
 /* ----------------------------------------------------------------------------- */
 Route::get('/', function () {
-    return view('plantilla');
+    return view('welcome');
 });
 
